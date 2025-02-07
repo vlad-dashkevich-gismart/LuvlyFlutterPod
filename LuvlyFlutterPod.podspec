@@ -41,5 +41,5 @@ LICENSE
   s.source                = { :git => 'git@github.com:vlad-dashkevich-gismart/LuvlyFlutterPod.git' }
   s.documentation_url     = 'https://docs.flutter.dev'
   s.platform              = :ios, '12.0'
-  s.vendored_frameworks   = 'Flutter.xcframework'
+  s.vendored_frameworks   = 'App.xcframework'
 end
