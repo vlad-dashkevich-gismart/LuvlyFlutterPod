@@ -1,0 +1,21 @@
+PODS:
+  - Eureka (5.5.0)
+  - Flutter (3.13.0)
+
+DEPENDENCIES:
+  - Eureka
+  - Flutter
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Flutter
+  trunk:
+    - Eureka
+
+SPEC CHECKSUMS:
+  Eureka: 1c18c7fcd8f772cc2ca42d6be36292dffa77eecb
+  Flutter: 8ff16720b007bae16abfe75ef9fe3ee45ead486a
+
+PODFILE CHECKSUM: 0f3af32ea8bbc3265abb97857449f7140a89e008
+
+COCOAPODS: 1.16.2

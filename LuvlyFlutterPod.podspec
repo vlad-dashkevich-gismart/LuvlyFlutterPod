@@ -42,5 +42,7 @@ LICENSE
   s.documentation_url     = 'https://docs.flutter.dev'
   s.platform              = :ios, '12.0'
   s.vendored_frameworks   = 'App.xcframework'
+  s.source_files = "Runner/*.{h,m,swift}"
   s.dependency 'Flutter'
+  s.dependency 'Eureka'
 end
