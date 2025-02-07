@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'LuvlyFlutterPod'
-  s.version               = '1.0.0' # 3.27.4
+  s.version               = '1.0.1' # 3.27.4
   s.summary               = 'A UI toolkit for beautiful and fast apps.'
   s.description           = <<-DESC
 Flutter is Google's UI toolkit for building beautiful, fast apps for mobile, web, desktop, and embedded devices from a single codebase.
@@ -42,4 +42,5 @@ LICENSE
   s.documentation_url     = 'https://docs.flutter.dev'
   s.platform              = :ios, '12.0'
   s.vendored_frameworks   = 'App.xcframework'
+  s.dependency 'Flutter'
 end
