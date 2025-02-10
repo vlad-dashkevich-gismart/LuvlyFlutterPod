@@ -4,77 +4,56 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/FlutterPluginRegistrant-umbrella.h</key>
+		<data>
+		BlXyOkl1muCCIB1VnqAWVectDfU=
+		</data>
+		<key>Headers/GeneratedPluginRegistrant.h</key>
+		<data>
+		TESPWpyRMYQntVufMz6fb0/uekw=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		h5OB7aKzS5WR9SemvZAyN6FEkJs=
+		okt14Bnf+zcrA7ifGwTov+knM8M=
 		</data>
-		<key>flutter_assets/AssetManifest.bin</key>
+		<key>Modules/module.modulemap</key>
 		<data>
-		21tVqbIV90TbglF4ZJhNBz8uj4w=
-		</data>
-		<key>flutter_assets/AssetManifest.json</key>
-		<data>
-		vyGp6PvFo4RvsFtPoIWeCReyIC8=
-		</data>
-		<key>flutter_assets/FontManifest.json</key>
-		<data>
-		+D1xbIOooc3ypce1+jh+mmLy1J0=
-		</data>
-		<key>flutter_assets/NOTICES.Z</key>
-		<data>
-		auoJeaTE3gKBWbCIRnJMLUmM6sc=
-		</data>
-		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
-		<data>
-		nhFsDnQNxIhdKAdFXqtBz1rROg4=
-		</data>
-		<key>flutter_assets/shaders/ink_sparkle.frag</key>
-		<data>
-		VoVnsu58hN7wrwazX0nyAopiB0Q=
+		iTD5plvMurvrDjStxy2dm6e+pBY=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>flutter_assets/AssetManifest.bin</key>
+		<key>Headers/FlutterPluginRegistrant-umbrella.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			BlXyOkl1muCCIB1VnqAWVectDfU=
+			</data>
 			<key>hash2</key>
 			<data>
-			9WbMb8zGVzZcAZeszzp9b4D4Ugn/Zm/3dPTcvFJKqEI=
+			3cVVto8eb/sKPk5f5F69EhmtKa+WSnGsI0ox4w+GcGA=
 			</data>
 		</dict>
-		<key>flutter_assets/AssetManifest.json</key>
+		<key>Headers/GeneratedPluginRegistrant.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			TESPWpyRMYQntVufMz6fb0/uekw=
+			</data>
 			<key>hash2</key>
 			<data>
-			RBNvo1WzZ4oRRq0W9+hknpT7T8If536DEMBg9hyq/4o=
+			pfiMxkFdLmOdLLVJNIuE4Cp/3QJhYDsAY6vvb6EfB1o=
 			</data>
 		</dict>
-		<key>flutter_assets/FontManifest.json</key>
+		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash2</key>
+			<key>hash</key>
 			<data>
-			KLHrKz0uGtYLjIsPkQCxzL9JL3+pf1vrtR6pfnOSbn0=
+			iTD5plvMurvrDjStxy2dm6e+pBY=
 			</data>
-		</dict>
-		<key>flutter_assets/NOTICES.Z</key>
-		<dict>
 			<key>hash2</key>
 			<data>
-			VYwyxY6TTEHw8JMF/AKodKZV5GD5KtkbvumVjdIS9hY=
-			</data>
-		</dict>
-		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UqBheMarynpQJAo+1oU/NBeZdTeZTFYFUvsaGGy8KV0=
-			</data>
-		</dict>
-		<key>flutter_assets/shaders/ink_sparkle.frag</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4PC1vOWKHlNOnW4dGwFfD4TPwBCllniPCsOy7+1X5co=
+			kQPs5On+4EVuv3Zb8VnSiYHtRNpranpxr4chT8qhXSA=
 			</data>
 		</dict>
 	</dict>
