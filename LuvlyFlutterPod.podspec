@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LuvlyFlutterPod'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'A short description of LuvlyFlutterPod.'
 
   s.description      = <<-DESC
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '12.0'
 
   s.source_files = 'LuvlyFlutterPod/Classes/**/*'
-  s.vendored_frameworks = 'ios_frameworks/Release/*.xcframework'
+  s.vendored_frameworks = 'ios_frameworks/Release/App.xcframework'
   
   # s.resource_bundles = {
   #   'LuvlyFlutterPod' => ['LuvlyFlutterPod/Assets/*.png']
@@ -33,5 +33,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Flutter'
 end
