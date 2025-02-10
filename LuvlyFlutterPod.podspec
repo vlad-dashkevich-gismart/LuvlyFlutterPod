@@ -1,48 +1,37 @@
+#
+# Be sure to run `pod lib lint LuvlyFlutterPod.podspec' to ensure this is a
+# valid spec before submitting.
+#
+# Any lines starting with a # are optional, but their use is encouraged
+# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
+#
+
 Pod::Spec.new do |s|
-  s.name                  = 'LuvlyFlutterPod'
-  s.version               = '1.0.1' # 3.27.4
-  s.summary               = 'A UI toolkit for beautiful and fast apps.'
-  s.description           = <<-DESC
-Flutter is Google's UI toolkit for building beautiful, fast apps for mobile, web, desktop, and embedded devices from a single codebase.
-This pod vends the iOS Flutter engine framework. It is compatible with application frameworks created with this version of the engine and tools.
-The pod version matches Flutter version major.minor.(patch * 100) + hotfix.
-DESC
-  s.homepage              = 'https://flutter.dev'
-  s.license               = { :type => 'BSD', :text => <<-LICENSE
-Copyright 2014 The Flutter Authors. All rights reserved.
+  s.name             = 'LuvlyFlutterPod'
+  s.version          = '1.0.3'
+  s.summary          = 'A short description of LuvlyFlutterPod.'
 
-Redistribution and use in source and binary forms, with or without modification,
-are permitted provided that the following conditions are met:
+  s.description      = <<-DESC
+TODO: Add long description of the pod here.
+                       DESC
 
-    * Redistributions of source code must retain the above copyright
-      notice, this list of conditions and the following disclaimer.
-    * Redistributions in binary form must reproduce the above
-      copyright notice, this list of conditions and the following
-      disclaimer in the documentation and/or other materials provided
-      with the distribution.
-    * Neither the name of Google Inc. nor the names of its
-      contributors may be used to endorse or promote products derived
-      from this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
-ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
-ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
-ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-LICENSE
-  }
-  s.author                = { 'Flutter Dev Team' => 'flutter-dev@googlegroups.com' }
+  s.homepage         = 'https://github.com/Vladislav Dashkevich/LuvlyFlutterPod'
+  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'Vladislav Dashkevich' => 'vladislav.dashkevich@gismart.com' }
   s.source                = { :git => 'git@github.com:vlad-dashkevich-gismart/LuvlyFlutterPod.git' }
-  s.documentation_url     = 'https://docs.flutter.dev'
-  s.platform              = :ios, '12.0'
-  s.vendored_frameworks   = 'App.xcframework'
-  s.source_files = "Runner/*.{h,m,swift}"
-  s.dependency 'Flutter'
-  s.dependency 'Eureka'
+  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+
+  s.ios.deployment_target = '12.0'
+
+  s.source_files = 'LuvlyFlutterPod/Classes/**/*'
+  s.vendored_frameworks = 'ios_frameworks/Release/*.xcframework'
+  
+  # s.resource_bundles = {
+  #   'LuvlyFlutterPod' => ['LuvlyFlutterPod/Assets/*.png']
+  # }
+
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.frameworks = 'UIKit', 'MapKit'
+  # s.dependency 'AFNetworking', '~> 2.3'
 end

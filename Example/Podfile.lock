@@ -1,0 +1,16 @@
+PODS:
+  - LuvlyFlutterPod (0.1.0)
+
+DEPENDENCIES:
+  - LuvlyFlutterPod (from `../`)
+
+EXTERNAL SOURCES:
+  LuvlyFlutterPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LuvlyFlutterPod: 1ad9741f0d39b2a6f7843783c676fd7f4a3f6814
+
+PODFILE CHECKSUM: c187a341f08e4abccdf07bda6b9cb9f06a4c6504
+
+COCOAPODS: 1.16.2

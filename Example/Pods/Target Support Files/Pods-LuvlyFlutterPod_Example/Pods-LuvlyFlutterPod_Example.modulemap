@@ -1,0 +1,6 @@
+framework module Pods_LuvlyFlutterPod_Example {
+  umbrella header "Pods-LuvlyFlutterPod_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
