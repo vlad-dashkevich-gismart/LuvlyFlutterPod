@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3768D0F1804CDA878588FADE /* LuvlyFlutterPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LuvlyFlutterPod.podspec; path = ../LuvlyFlutterPod.podspec; sourceTree = "<group>"; };
-		3BF4B816B8F23E0A21159F6D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3768D0F1804CDA878588FADE /* LuvlyFlutterPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LuvlyFlutterPod.podspec; path = ../LuvlyFlutterPod.podspec; sourceTree = "<group>"; };
+		3BF4B816B8F23E0A21159F6D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		553E3D0CC05E74C3F50B9064 /* Pods_LuvlyFlutterPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuvlyFlutterPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB85A84F3A06F4BF74EFB13 /* Pods-LuvlyFlutterPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuvlyFlutterPod_Example.debug.xcconfig"; path = "Target Support Files/Pods-LuvlyFlutterPod_Example/Pods-LuvlyFlutterPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* LuvlyFlutterPod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuvlyFlutterPod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,7 +44,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8FC643448B3C16E38BB91864 /* Pods_LuvlyFlutterPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuvlyFlutterPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1A59AE5E16AFDA1896CABD /* Pods-LuvlyFlutterPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuvlyFlutterPod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LuvlyFlutterPod_Tests/Pods-LuvlyFlutterPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		ED2144341CE525BB93114E2B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ED2144341CE525BB93114E2B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F617B1CE2A38DA956DE06F27 /* Pods-LuvlyFlutterPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuvlyFlutterPod_Example.release.xcconfig"; path = "Target Support Files/Pods-LuvlyFlutterPod_Example/Pods-LuvlyFlutterPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F9ADE9583D68E43DE6817191 /* Pods-LuvlyFlutterPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuvlyFlutterPod_Tests.release.xcconfig"; path = "Target Support Files/Pods-LuvlyFlutterPod_Tests/Pods-LuvlyFlutterPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,7 +86,6 @@
 				AB1A59AE5E16AFDA1896CABD /* Pods-LuvlyFlutterPod_Tests.debug.xcconfig */,
 				F9ADE9583D68E43DE6817191 /* Pods-LuvlyFlutterPod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -479,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LuvlyFlutterPod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LuvlyFlutterPod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -516,6 +518,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -534,6 +537,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

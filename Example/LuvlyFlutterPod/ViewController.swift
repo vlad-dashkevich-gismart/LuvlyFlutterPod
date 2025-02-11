@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import LuvlyFlutterPod
 
 class ViewController: UIViewController {
 

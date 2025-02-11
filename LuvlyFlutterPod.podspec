@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LuvlyFlutterPod'
-  s.version          = '1.0.8'
+  s.version          = '1.0.9'
   s.summary          = 'A short description of LuvlyFlutterPod.'
 
   s.description      = <<-DESC
@@ -26,6 +26,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'LuvlyFlutterPod/Classes/**/*'
   s.vendored_frameworks = 'ios_frameworks/Release/*.xcframework'
+  s.source_files = 'LuvlyFlutterPod/Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'LuvlyFlutterPod' => ['LuvlyFlutterPod/Assets/*.png']
