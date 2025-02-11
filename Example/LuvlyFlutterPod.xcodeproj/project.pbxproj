@@ -314,10 +314,16 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LuvlyFlutterPod_Example/Pods-LuvlyFlutterPod_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LuvlyFlutterPod/LuvlyFlutterPod.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/LuvlyFlutterPod/App.framework/App",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/LuvlyFlutterPod/Flutter.framework/Flutter",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/LuvlyFlutterPod/shared_preferences_foundation.framework/shared_preferences_foundation",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LuvlyFlutterPod.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/shared_preferences_foundation.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

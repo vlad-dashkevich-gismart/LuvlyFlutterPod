@@ -177,9 +177,15 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/LuvlyFlutterPod/LuvlyFlutterPod.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/LuvlyFlutterPod/App.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/LuvlyFlutterPod/Flutter.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/LuvlyFlutterPod/shared_preferences_foundation.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/LuvlyFlutterPod/LuvlyFlutterPod.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/LuvlyFlutterPod/App.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/LuvlyFlutterPod/Flutter.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/LuvlyFlutterPod/shared_preferences_foundation.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

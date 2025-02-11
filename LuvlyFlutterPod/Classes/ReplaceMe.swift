@@ -10,8 +10,14 @@ public class RunEngine {
         GeneratedPluginRegistrant.register(with: self.flutterEngine);
     }
     
-    public func present() -> UIViewController {
-        let flutterViewController = FlutterViewController(engine: flutterEngine, nibName: nil, bundle: nil)
-        return flutterViewController
+    public func getInitialController() -> UIViewController {
+        FlutterViewController(engine: flutterEngine, nibName: nil, bundle: nil)
+    }
+    
+    public func getController(by route: String) -> UIViewController {
+        let viewController = FlutterViewController(engine: flutterEngine, nibName: nil, bundle: nil)
+        viewController.setInitialRoute(route)
+        
+        return viewController
     }
 }
