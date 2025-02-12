@@ -2,12 +2,11 @@ import UIKit
 import Flutter
 import FlutterPluginRegistrant
 
-public class RunEngine {
-//    lazy var flutterEngine = FlutterEngine(name: "my flutter engine")
+public class RunEngine: NSObject {
+    private var eventSink: FlutterEventSink?
     
-    public init() {
-//        flutterEngine.run()
-//        GeneratedPluginRegistrant.register(with: self.flutterEngine);
+    public override init() {
+        super.init()
     }
     
     public func getInitialController() -> UIViewController {
@@ -24,6 +23,26 @@ public class RunEngine {
         let viewController = FlutterViewController(engine: flutterEngine, nibName: nil, bundle: nil)
         viewController.setInitialRoute(route)
         
+        let eventChannel = FlutterEventChannel(name: "com.ios/greetingPage", binaryMessenger: viewController.binaryMessenger)
+        eventChannel.setStreamHandler(self)
+        
         return viewController
+    }
+    
+    public func sendMessage(_ text: String) {
+        eventSink?(text)
+    }
+}
+
+extension RunEngine: FlutterStreamHandler {
+    public func onListen(withArguments arguments: Any?, eventSink events: @escaping FlutterEventSink) -> FlutterError? {
+        self.eventSink = events
+        
+        return nil
+    }
+    
+    public func onCancel(withArguments arguments: Any?) -> FlutterError? {
+        eventSink = nil
+        return nil
     }
 }

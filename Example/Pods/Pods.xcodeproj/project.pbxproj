@@ -43,23 +43,23 @@
 		0D4EB7D0872AA1FC5F93AD6751E6434C /* LuvlyFlutterPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LuvlyFlutterPod-prefix.pch"; sourceTree = "<group>"; };
 		0EEE82F7B385E04D8A882418B68DCCB6 /* Pods-LuvlyFlutterPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuvlyFlutterPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		349E2014588169D546832EF7DAA07A52 /* Pods-LuvlyFlutterPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuvlyFlutterPod_Example-frameworks.sh"; sourceTree = "<group>"; };
-		361B38879867F77000328D0050699A76 /* Flutter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Flutter.xcframework; path = ios_frameworks/Release/Flutter.xcframework; sourceTree = "<group>"; };
-		382236B2692017261F85F79DFE763EA1 /* LuvlyFlutterPod */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LuvlyFlutterPod; path = LuvlyFlutterPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		361B38879867F77000328D0050699A76 /* Flutter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = ios_frameworks/Release/Flutter.xcframework; sourceTree = "<group>"; };
+		382236B2692017261F85F79DFE763EA1 /* LuvlyFlutterPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LuvlyFlutterPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		392A5D8033AD3681B08EB430F040BF33 /* Pods-LuvlyFlutterPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LuvlyFlutterPod_Example-dummy.m"; sourceTree = "<group>"; };
 		3B9BF7D480765F7DDD67F14D8B3E34C9 /* Pods-LuvlyFlutterPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuvlyFlutterPod_Tests-Info.plist"; sourceTree = "<group>"; };
 		3CBD9AF3806CDA9FF09EBDF374DE1CDE /* Pods-LuvlyFlutterPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LuvlyFlutterPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		41D045701A224AB32154D48DC92E4FC0 /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FlutterPluginRegistrant.xcframework; path = ios_frameworks/Release/FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
+		41D045701A224AB32154D48DC92E4FC0 /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = ios_frameworks/Release/FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
 		4A00197C09D72BC8EAEEECFBEECB43E1 /* Pods-LuvlyFlutterPod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuvlyFlutterPod_Example-Info.plist"; sourceTree = "<group>"; };
-		4ACFF16062602D820BC61F8F999DB0C0 /* shared_preferences_foundation.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = shared_preferences_foundation.xcframework; path = ios_frameworks/Release/shared_preferences_foundation.xcframework; sourceTree = "<group>"; };
+		4ACFF16062602D820BC61F8F999DB0C0 /* shared_preferences_foundation.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = shared_preferences_foundation.xcframework; path = ios_frameworks/Release/shared_preferences_foundation.xcframework; sourceTree = "<group>"; };
 		60534AE4FF789E18BC32F08D25FB7093 /* Pods-LuvlyFlutterPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuvlyFlutterPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		647FFE9369489668299E448B2430C0D1 /* Pods-LuvlyFlutterPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuvlyFlutterPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		664355E3899E324B300B82A10E271EB5 /* Pods-LuvlyFlutterPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuvlyFlutterPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7AF6FD313B4051A75B41726B432AA235 /* Pods-LuvlyFlutterPod_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LuvlyFlutterPod_Tests"; path = Pods_LuvlyFlutterPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		82AF2969709FD3B6D1DF8D3B7D7C5431 /* LuvlyFlutterPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LuvlyFlutterPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7AF6FD313B4051A75B41726B432AA235 /* Pods_LuvlyFlutterPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuvlyFlutterPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AF2969709FD3B6D1DF8D3B7D7C5431 /* LuvlyFlutterPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LuvlyFlutterPod.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		8547342C80755D19D0AACF9AB4EE39C5 /* Pods-LuvlyFlutterPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LuvlyFlutterPod_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AC66BB45D3CB3B25088D6149E3CEEACB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC66BB45D3CB3B25088D6149E3CEEACB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BB49CAF7194D961640AC8D1749669B45 /* LuvlyFlutterPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LuvlyFlutterPod.debug.xcconfig; sourceTree = "<group>"; };
 		BBDFB780839158A928CE639E3544342B /* LuvlyFlutterPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LuvlyFlutterPod-dummy.m"; sourceTree = "<group>"; };
 		C3B33C88E470D2C50D20D61C1F6BE47F /* Pods-LuvlyFlutterPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuvlyFlutterPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -70,11 +70,11 @@
 		DB40CA9225FF9102D2AA34606A4D65E3 /* Pods-LuvlyFlutterPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LuvlyFlutterPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DC9DAA8FFC29F2B12981435E60E52919 /* LuvlyFlutterPod-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "LuvlyFlutterPod-xcframeworks.sh"; sourceTree = "<group>"; };
 		E03707F0CCDEA6AB4173AE606A096D8C /* Pods-LuvlyFlutterPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuvlyFlutterPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		ED7CC0B62E9CBFE90C552FEFEA609311 /* Pods-LuvlyFlutterPod_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LuvlyFlutterPod_Example"; path = Pods_LuvlyFlutterPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7CC0B62E9CBFE90C552FEFEA609311 /* Pods_LuvlyFlutterPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuvlyFlutterPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3F6CC82ADCC66ED86F5052F7BFC6CFD /* LuvlyFlutterPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LuvlyFlutterPod-umbrella.h"; sourceTree = "<group>"; };
 		F7DA384A3C2293C8BFAA491AA2C91791 /* Pods-LuvlyFlutterPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LuvlyFlutterPod_Tests.modulemap"; sourceTree = "<group>"; };
-		FAE003FD4EC5754B7476EDE1C92F1586 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		FDEF271658584F7B64D4EEBC7C894D1F /* App.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = App.xcframework; path = ios_frameworks/Release/App.xcframework; sourceTree = "<group>"; };
+		FAE003FD4EC5754B7476EDE1C92F1586 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FDEF271658584F7B64D4EEBC7C894D1F /* App.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = ios_frameworks/Release/App.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,9 +190,9 @@
 		CA979087F13ABAA2370FD700B53BCAA2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				382236B2692017261F85F79DFE763EA1 /* LuvlyFlutterPod */,
-				ED7CC0B62E9CBFE90C552FEFEA609311 /* Pods-LuvlyFlutterPod_Example */,
-				7AF6FD313B4051A75B41726B432AA235 /* Pods-LuvlyFlutterPod_Tests */,
+				382236B2692017261F85F79DFE763EA1 /* LuvlyFlutterPod.framework */,
+				ED7CC0B62E9CBFE90C552FEFEA609311 /* Pods_LuvlyFlutterPod_Example.framework */,
+				7AF6FD313B4051A75B41726B432AA235 /* Pods_LuvlyFlutterPod_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -287,7 +287,7 @@
 			);
 			name = "Pods-LuvlyFlutterPod_Tests";
 			productName = Pods_LuvlyFlutterPod_Tests;
-			productReference = 7AF6FD313B4051A75B41726B432AA235 /* Pods-LuvlyFlutterPod_Tests */;
+			productReference = 7AF6FD313B4051A75B41726B432AA235 /* Pods_LuvlyFlutterPod_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CCD34CA3152F1885FAF393E584F5B365 /* LuvlyFlutterPod */ = {
@@ -306,7 +306,7 @@
 			);
 			name = LuvlyFlutterPod;
 			productName = LuvlyFlutterPod;
-			productReference = 382236B2692017261F85F79DFE763EA1 /* LuvlyFlutterPod */;
+			productReference = 382236B2692017261F85F79DFE763EA1 /* LuvlyFlutterPod.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E2955124D7760D4DA38642D1ED9BCA0F /* Pods-LuvlyFlutterPod_Example */ = {
@@ -325,7 +325,7 @@
 			);
 			name = "Pods-LuvlyFlutterPod_Example";
 			productName = Pods_LuvlyFlutterPod_Example;
-			productReference = ED7CC0B62E9CBFE90C552FEFEA609311 /* Pods-LuvlyFlutterPod_Example */;
+			productReference = ED7CC0B62E9CBFE90C552FEFEA609311 /* Pods_LuvlyFlutterPod_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -346,8 +346,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = CA979087F13ABAA2370FD700B53BCAA2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -651,8 +649,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

@@ -1,5 +1,5 @@
 PODS:
-  - LuvlyFlutterPod (1.0.10)
+  - LuvlyFlutterPod (1.0.12)
 
 DEPENDENCIES:
   - LuvlyFlutterPod (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LuvlyFlutterPod: 3057a0472f24d982d47f6487e4eaa88f3de890f2
+  LuvlyFlutterPod: 96c40db546c24476cee55ba22f029cfd07e64bf0
 
 PODFILE CHECKSUM: c187a341f08e4abccdf07bda6b9cb9f06a4c6504
 
